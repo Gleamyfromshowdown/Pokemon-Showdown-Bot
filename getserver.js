@@ -17,7 +17,7 @@ if (process.argv[2]) {
 
 	var received = false;
 	var requestOptions = {
-		hostname: 'play.pokemonshowdown.com',
+		hostname: 'http://pokecommunity.psim.us/',
 		port: 80,
 		path: '/crossdomain.php?host=' + serverUrl + '&path=',
 		method: 'GET'
